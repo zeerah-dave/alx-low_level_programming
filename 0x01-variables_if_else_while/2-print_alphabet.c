@@ -6,11 +6,12 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	
-	char alphabet;
-	for(alphabet = 'a'; alphabet <= 'z'; alphabet++);
+{
+	char list[26] = "abcdefghijklmnopqrstuv";
+	int i;
+	for(i = 0; i < 26; i++);
 	{
-		putchar(alphabet);
+		putchar(i);
 	}
 	return (0);
 }
