@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Print all single digit base 10 numbers from 0
+ * main -  Print all single digit base 10 numbers from 0
  *
  * Return: Always 0 (Success)
  */
@@ -12,5 +12,6 @@ int main(void)
 	{
 		printf("%d", num);
 	}
+	putchar('\n');
 	return (0);
 }
