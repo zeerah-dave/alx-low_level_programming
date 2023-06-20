@@ -10,7 +10,6 @@ int main(void)
 	int hundredsDigit;
 	int tensDigit;
 	int onesDigit;
-
 	for (hundredsDigit = 0; hundredsDigit < 10; hundredsDigit++)
 	{
 		for (tensDigit = hundredsDigit + 1; tensDigit < 10; tensDigit++)
@@ -29,5 +28,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-       	return (0);
+	return (0);
 }
