@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all possible different combinations of three digits.
+ * main - prints all possible combinations of three digits.
  *
  * Return: Always 0 (Success)
  */
@@ -10,6 +10,7 @@ int main(void)
 	int hundredsDigit;
 	int tensDigit;
 	int onesDigit;
+
 	for (hundredsDigit = 0; hundredsDigit < 10; hundredsDigit++)
 	{
 		for (tensDigit = hundredsDigit + 1; tensDigit < 10; tensDigit++)
