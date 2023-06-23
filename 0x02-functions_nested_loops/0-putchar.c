@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * main - Prints _putchar, followed by a new line.
  *
@@ -9,10 +8,9 @@
 int main(void)
 {
 	int i;
-	char my_char[] = "_putchar";
-	int len_char = strlen(my_char);
+	char my_char[8] = "_putchar";
 
-	for (i = 0; i < len_char; i++)
+	for (i = 0; i < 8; i++)
 	{
 		putchar(my_char[i]);
 	}
