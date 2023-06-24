@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _islower(int c) - Prints lowercase
+ * _islower - Prints lowercase
  * characters.
- * int c - is an integer value
+ *
+ * @c: is an integer value
  *
  * Return: Always 0.
  */
