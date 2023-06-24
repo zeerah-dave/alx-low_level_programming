@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _islower(int c) - Prints lowercase
+ * islower(int c) - Prints lowercase
  * characters.
+ * c - is an imteger
  *
  * Return: Always 0.
  */
