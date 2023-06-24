@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *  int _abs(int) - Comuputes the absolute
+ *  _abs - Comuputes the absolute
  *  value of an integer.
  *
  *  Return: Always 0.
@@ -12,10 +12,10 @@
 {
 	if (r >= 0)
 	{
-		return(r);
+		return (r);
 	}
 	else
 	{
-		return(r * -1)
+		return (r * -1)
 	}
 }
