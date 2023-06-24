@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * int _isalpha(int c) - Checks for alphabetic
+ * _isalpha(int c) - Checks for alphabetic
  * characters.Returns 1 if upper or lower
  * and zero otherwise.
  *
