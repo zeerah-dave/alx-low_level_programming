@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_sign - Prints sign 
+ * print_sign - Prints sign
  * of a number.
  *
  * @n: Ths is an integer representing numbers.
