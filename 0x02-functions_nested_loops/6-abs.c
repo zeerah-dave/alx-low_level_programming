@@ -5,10 +5,12 @@
  *  _abs - Comuputes the absolute
  *  value of an integer.
  *
+ * @r: Integer value.
+ *
  *  Return: Always 0.
  */
 
- int _abs(int r)
+int _abs(int r)
 {
 	if (r >= 0)
 	{
