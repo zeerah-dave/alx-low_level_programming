@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void jack_bauer - Prints every minute
+ * jack_bauer - Prints every minute
  * of the day of Jack Bauer, starting from
  * 00:00 to 23:59.
  *
@@ -23,13 +23,13 @@ void jack_bauer(void)
 					if (a >= 2 && b >= 4)
 					{
 						break;
+					}
 					_putchar(a + 48);
 					_putchar(b + 48);
 					_putchar(58);
 					_putchar(c + 48);
 					_putchar(d + 48);
-					_putchar('\n');
-					}
+					_putchar('\n');	
 				}
 			}
 		}
